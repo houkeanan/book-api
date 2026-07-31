@@ -13,7 +13,7 @@ import org.springframework.web.server.ResponseStatusException;
 import com.example.book_api.model.Book;
 import com.example.book_api.service.BookService;
 
-@Controller
+@Controller   
 public class BookController {   //test
 
     private final BookService bookService;  
